@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Paradise</title>
+    <link rel="stylesheet" href="LandingPage.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<script src="https://kit.fontawesome.com/35253a8ab1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+            
+        </nav>
+        <img class="img" src="logo.png" alt="logo">
+
+        <div class="main">
+            
+            <div class="coffee">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="pizza.jpg" alt=""><h3>Double Cheese Margherita Pizza.</h3></div>
+                      <div class="swiper-slide"><img src="moji.jpg" alt=""><h3>Mojitos</h3></div>
+                      <div class="swiper-slide"><img src="dese.jpg" alt=""><h3>Deserts</h3></div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="main-text">
+                <h1>Pizzaria</h1>
+                <p>Taste Your Slice With Us!</p>
+                <button>Know More!</button>
+            </div>
+        </div>
+        <div class="right">
+          <div class="box">
+            <div class="image">
+              <i class="fa-solid fa-leaf"></i>
+            </div>
+            <div class="inner-box">
+              <h2>Veg and Non Veg</h2>
+              <p>Purely organic</p>
+            </div>
+          </div><br>
+          <div class="box">
+            <div class="image">
+              <i class="fa-solid fa-wallet"></i>
+            </div>
+            <div class="inner-box">
+              <h2>Not Expensive</h2>
+              <p>Affordably priced</p>
+            </div>
+          </div><br>
+          <div class="box">
+            <div class="image">
+              <i class="fa-solid fa-mug-hot"></i>
+            </div>
+            <div class="inner-box">
+              <h2>Bevarages</h2>
+              <p> Hot Bevarages</p>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>          
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+        });
+      </script>
+</body>
+</html>
